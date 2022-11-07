@@ -1,4 +1,10 @@
-# daily-react
-learning react with me
-希望写一个react教程，帮助更多的人学习react
+# React Curriculum
+let's learn about React together！！
 
+## Update Log
+- Nov.7
+  add a React base project,include： 
+    - reacr-router
+    - redux
+    - env judge
+    - override webpack config
