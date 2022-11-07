@@ -1,8 +1,11 @@
 const path = require('path');
 
 module.exports = function overrides(config, env) {
+    // path alias  
     config.resolve.alias['@'] = path.join(__dirname, 'src')
-    config.module.rules.push({
+    // add loader
+    let rules = config.module.rules
+  	rules[rules.length-1].oneOf?.splice(-1,0,{
         test: /\.less$/,
         use: [
           {
@@ -27,5 +30,6 @@ module.exports = function overrides(config, env) {
             }
           }]
     })
+  
     return config
 }
