@@ -1,5 +1,5 @@
-# yuejing-overseas
-welcome to yuejing nft platform!!
+# React project
+welcome to my project!!
 
 ## scripts:
 
