@@ -1,13 +1,9 @@
-# React project
+# React Best Practices
 welcome to my project!!
+base on React 18 :ox::ox:
 
 ## scripts:
-
 ```js
-// dev env
 npm run start
-npm run build:dev
-// prod env
-npm run start:prod
-npm run build:prod
+npm run build[:dev or :prod]
 ```
